@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+:root {
+    --primary-050: #ff7d7d; /* サンプル */
+    --secondary-050: #ffd580; /* サンプル */
+    --dark-087: rgba(0,0,0,0.87);
+    --dark-054: rgba(0,0,0,0.54);
+    --dark-026: rgba(0,0,0,0.26);
+    --dark-012: rgba(0,0,0,0.12);
+    --light-100: rgba(255,255,255,1.00);
+    --light-070: rgba(255,255,255,0.70);
+    --light-030: rgba(255,255,255,0.30);
+    --light-012: rgba(255,255,255,0.12);
+    --gray-010: #f1f1f1;
+    --gray-020: #e4e4e4;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    font-feature-settings: "palt";
+    font-size: 16pt;
+}
+.global-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    z-index: 100;
+    left: 0;
+    right: 0; 
+
+    height: 70px;
+    position: fixed;
+}
+.global-nav h1{
+    display: inline;
+    font-size: 1.5rem;
+    font-family: 'Comic Sans MS', cursive;
+    margin-left: 1rem;
+    text-align: left;
+
+    color: var(--primary-050);
+    text-shadow: 1px 1px 0 var(--dark-026);
+}
+.menu ul{
+    align-items:  right;
+}
+.menu ul li{
+    display: inline;
+    list-style: none;
+}
+.menu ul li a{
+    display: inline-block;
+    padding: 0.5em;
+    border: 1px solid #ccccff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.5;
+    background-color: azure;
+    color: black;
+}
+.menu ul li a:hover{
+    background-color: black;
+    color: azure;
+    transition-duration: 0.3s;
+}
+section {
+    /*
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+}
+.main0{
+    background-image: url(6.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.main0 #icon{
+    margin-left: 5%;
+    border-radius: 50%;
+    border: pink solid;
+    background-color: pink;
+}
+.main0 a{
+    flex-direction: column;
+    padding: 10px;
+    font-size: 5vh;
+    font-family: 'Comic Sans MS', cursive;
+    color: white;
+    vertical-align: unset;
+}
+.main1{
+    background: url(4.gif);
+    height: 100％;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.main1 a{
+    padding: 0 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30pt;
+}
+.main1 figure{
+    display: inline-table;
+    padding: 10px;
+    background: rgb(92, 92, 255);
+    color: rgb(255, 255, 255); 
+    border-radius: 10px 10px 20px 20px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+.main1 figure video{
+    border-radius: 10px;
+}
+.main1 figure img{
+    border-radius: 10px;
+}
+.main2{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main3{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main4{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
