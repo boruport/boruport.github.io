@@ -29,7 +29,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
+    background: rgb(236, 255, 255);
     z-index: 100;
     left: 0;
     right: 0; 
@@ -69,21 +69,14 @@
     color: azure;
     transition-duration: 0.3s;
 }
-section {
-    /*
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    */
-}
+
 .main0{
-    background-image: url(6.jpg);
+    background-image: url(block.jpg);
     height: 100vh;
     display: flex;
     align-items: center;
 }
-.main0 #icon{
+.main0 #icon-self{
     margin-left: 5%;
     border-radius: 50%;
     border: pink solid;
@@ -125,21 +118,64 @@ section {
 .main1 figure img{
     border-radius: 10px;
 }
+
 .main2{
-    height: 100vh;
+    height: 100%;
+    padding-right: 2%;
+    padding-left: 2%;
+    align-items: center;
+    justify-content: center;
+    background: url(4.gif);
+}
+.main2 #skill-space{
+    padding: 30px 0 20px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 30pt;
 }
+.main2 div{
+    display: inline-table;
+    padding: 10px 20px;
+    margin-right: 5px;
+    font-size: 4vh;
+    border: 1px solid rgb(92,92,255);
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+.main2 #skill-a{
+    font-family: 'Comic Sans MS', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.main2  #icon-skill{
+    display: flex;
+    margin : 0 auto
+}
+.main2 .skills{
+    flex-direction: column;
+    margin-left: 5px;
+    display: block;
+}
+
 .main3{
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    background: gray;
 }
-.main4{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.main3 img{
+    margin-left: 5%;
+}
+.main3 a{
+    flex-direction: column;
+    padding: 10px;
+    font-size: 5vh;
+    font-family: 'Comic Sans MS', cursive;
+    color: white;
+    vertical-align: unset;
 }
